@@ -210,7 +210,7 @@ export default function Home() {
       sx={globalStyles}
     >
       <Typography variant="h3" sx={{ color: '#4c0070', fontWeight: 'bold', marginBottom: 2 }}>
-        AI Inventory System
+        Invntory
       </Typography>
       <Modal
         open={open}
