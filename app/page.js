@@ -8,6 +8,7 @@ import { collection, doc, getDocs, query, setDoc, deleteDoc, getDoc, addDoc, Fir
 import { Camera } from "react-camera-pro";
 import {Snackbar, Alert} from '@mui/material';
 
+
  
 
 const globalStyles = {
@@ -209,8 +210,11 @@ export default function Home() {
       padding={3}
       sx={globalStyles}
     >
-      <Typography variant="h3" sx={{ color: '#4c0070', fontWeight: 'bold', marginBottom: 2 }}>
-        Invntory
+      <Typography variant="h3" sx={{ color: '#4c0070', fontWeight: 'bold', marginBottom: 0.2 }}>
+      Invntory
+      </Typography>
+      <Typography sx={{ color: '#4c0070', fontWeight: 'normal', fontStyle:'italic', marginBottom: 2 }}>
+        Easily manage your inventory
       </Typography>
       <Modal
         open={open}
